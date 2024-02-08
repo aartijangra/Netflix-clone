@@ -1,0 +1,261 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins' , sans-serif;
+}
+
+body{
+    background-color: black ;
+}
+
+.main{
+    height: 100vh;
+    background-image: url("assets/images/bg.jpg");
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px,100vw);
+    
+}
+
+.main .box{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.75;
+    position: absolute;
+    top: 0;
+}
+
+nav{
+    max-width: 62vw;
+    margin:  auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 62px;
+}
+
+nav img{
+    color: red;
+    width: 140px;
+    z-index: 10;
+    position: relative;
+    margin-top: 8px;
+}
+
+nav button{
+    z-index: 10;
+    position: relative;
+
+}
+
+.hero{
+    font-family: 'martel Sans', sans-serif;
+    height: calc(100% - 62px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 20px;
+    padding: 0px 30px;
+}
+
+.hero> :first-child{
+   
+    font-weight: 900;
+    font-size: 45px;
+    text-align: center;
+}
+
+.hero :nth-child(2){
+    font-weight: 200;
+    font-size: 25px;
+    text-align: center;
+}
+
+.hero :nth-child(3){
+    font-weight: 200;
+    font-size: 20px;
+    text-align: center;
+}
+
+.separation{
+    height: 7px;
+    background-color: rgb(46, 41, 41);
+}
+
+.btn{
+    padding: 3px 8px;
+    font-weight: 400;
+    color: white;
+    background-color: rgba(23, 23, 23, 0.35);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 4px;
+}
+.btn-red-sm{
+    background-color: red;
+    color: white;
+
+}
+.btn-red{
+    background-color: red;
+    color: white;
+    padding: 4px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+    border: none;
+    font-weight: 400;
+    
+}
+.hero-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.main input{
+    padding: 7px 101px 8px 14px;
+    font-size: 12px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    color: white;
+    
+
+}
+.hero input{
+    padding: 19px 101px 8px 14px;
+    font-size: 12px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    color: white;
+
+}
+
+.first{
+    display: flex;
+    padding: 45px 0px;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.secimg{
+    position: relative;
+}
+.secimg img{
+    width: 30vw;
+    position: relative;
+    z-index: 10;
+}
+.secimg video{
+    position: absolute;
+    top: 51px;
+    right: 0;
+    width: 385px;
+}
+
+section.first>div {
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0;
+    gap: 10px;
+}
+
+section.first>div :nth-child(1) {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+
+section.first>div :nth-child(2) {
+    font-size: 24px;
+
+}
+
+.third video{
+    position: absolute;
+    top: 51px;
+    width: 300px;
+    margin-right: 100px;
+}
+.third img{
+    width: 500px;
+    position: relative;
+    z-index: 10;
+
+}
+
+.faq{
+    background-color: black;
+    color: white;
+    padding: 55px;
+}
+.faq h2{
+    text-align: center;
+    font-size: 48px;
+    padding: 32px;
+}
+
+.faqbox:hover {
+    background-color: #414141;
+    color: white;
+}
+
+
+.faqbox {
+    transition: all 1s ease-out;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    padding: 24px;
+    max-width: 60vw;
+    margin: 34px auto;
+    cursor: pointer;
+}
+
+footer {
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 60px;
+}
+
+footer .questions {
+    padding: 34px 0;
+}
+
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+}
+
+footer {
+    max-width: 90vw;
+    padding: 75px 0;
+}
+
+.footer a {
+font-size: 14px;
+color: white;
+}
+
+.footer-item {
+display: flex;
+flex-direction: column;
+gap: 23px;
+align-items: center;
+}
+
